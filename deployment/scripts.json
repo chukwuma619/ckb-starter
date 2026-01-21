@@ -1,5 +1,21 @@
 {
-  "devnet": {},
+  "devnet": {
+    "ckb-starter-contract.bc": {
+      "codeHash": "0x31f66f6747dbd5f33fc912b1642df8aff213a9579af7c2ee3839a370b4f7370f",
+      "hashType": "data2",
+      "cellDeps": [
+        {
+          "cellDep": {
+            "outPoint": {
+              "txHash": "0xb8147bba19590ea1c8c2655f63ab38e78340161f97c7cd64db083b10a667161b",
+              "index": 0
+            },
+            "depType": "code"
+          }
+        }
+      ]
+    }
+  },
   "testnet": {},
   "mainnet": {}
 }
